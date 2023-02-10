@@ -466,6 +466,21 @@ body {
 
 }
 
+.footer-social-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--green);
+}
+
 .portfolio {
   padding-bottom: 120px;
   padding-top: 96px;
@@ -545,12 +560,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.1);
+
 }
 
-.social-media-link:hover,
-.social-media-link:focus {
-  background-color: var(--green);
+.team-media-link {
+  background-color: var(--iris-color);
+}
+
+.team-media-link:hover,
+.team-media-link:focus {
+  background-color: var(--ocean-color);
 }
 
 .social-media-icon {
